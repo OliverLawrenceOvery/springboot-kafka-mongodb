@@ -1,5 +1,7 @@
 spring:
+  application:
+    name: product-service
   data:
     mongodb:
-      uri: mongodb://adminuser:password123@${MONGO_HOST:localhost}:${MONGO_PORT:60402}
+      uri: mongodb://adminuser:password123@${MONGO_HOST:localhost}:${MONGO_PORT:55771}
       database: 'admin'

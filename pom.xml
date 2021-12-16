@@ -38,8 +38,12 @@
             <version>1.18.20</version>
             <scope>provided</scope>
         </dependency>
-
-
+        <!-- https://mvnrepository.com/artifact/io.jaegertracing/jaeger-core -->
+        <dependency>
+            <groupId>io.jaegertracing</groupId>
+            <artifactId>jaeger-core</artifactId>
+            <version>0.27.0</version>
+        </dependency>
 
     </dependencies>
 
